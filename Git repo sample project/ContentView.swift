@@ -9,16 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        //Here's a comment
         VStack {
-            Image(systemName: "1.square.fill")
+            Image(systemName: "2.square.fill")
                 .resizable()
                 .scaledToFit()
-                .foregroundStyle(.blue)
-            Text("Version 1.0")
+            
+            Text("Version 2.0")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
         }
         .padding()
+        .foregroundColor(.mint)
     }
 }
 
