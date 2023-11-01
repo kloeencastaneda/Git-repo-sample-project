@@ -18,6 +18,14 @@ struct ContentView: View {
             Text("Version 2.0")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+            
+            ZStack {
+                Circle()
+                    .foregroundColor(.yellow)
+                    Image(systemName: "figure")
+                    .font(.system(size: 200))
+                
+            }
         }
         .padding()
         .foregroundColor(.mint)
